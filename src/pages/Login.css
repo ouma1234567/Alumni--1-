@@ -1,0 +1,190 @@
+.login-child {
+  position: absolute;
+  top: 18px;
+  left: 1241px;
+  border-radius: var(--br-189xl-5);
+  width: 113px;
+  height: 33px;
+}
+.password,
+.username {
+  border: 1px solid var(--color-white);
+  outline: 0;
+  font-family: var(--font-noto-sans);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  border-radius: var(--br-xs);
+  box-sizing: border-box;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-base);
+  color: var(--color-white);
+}
+.password {
+  justify-content: space-between;
+}
+.password-rem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.login2 {
+  position: relative;
+  font-weight: 600;
+}
+.login-bt-fp,
+.login1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login1 {
+  border-radius: var(--br-xs);
+  background: linear-gradient(90.57deg, #9da00b, #1e1924 53.13%, #727504);
+  width: 400px;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-3xs);
+  box-sizing: border-box;
+}
+.login-bt-fp {
+  flex-direction: column;
+  cursor: pointer;
+}
+.credentials {
+  gap: var(--gap-6xl);
+}
+.credentials,
+.upper-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.you-dont-have {
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  display: inline-block;
+  width: 366px;
+  cursor: pointer;
+}
+.frame-wrapper,
+.upper-section-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.upper-section-parent {
+  width: 415px;
+  height: 479px;
+  align-items: flex-start;
+  gap: 47px;
+}
+.frame-wrapper {
+  position: absolute;
+  top: 234px;
+  left: 33px;
+  align-items: center;
+}
+.log-in1 {
+  position: relative;
+  font-weight: 600;
+  background: linear-gradient(#faff00, #faff00), #fff;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.login-text {
+  position: absolute;
+  top: 117px;
+  left: 179px;
+  border: 1px solid #4d4d4d;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-17xl);
+}
+.frame-child {
+  position: absolute;
+  top: 584px;
+  left: 134px;
+}
+.frame-parent {
+  position: absolute;
+  top: calc(50% - 234px);
+  right: 332px;
+  border-radius: var(--br-xl);
+  background: linear-gradient(-38.77deg, rgba(191, 191, 191, 0.06), transparent),
+    rgba(0, 0, 0, 0.14);
+  box-shadow: -8px 4px 5px rgba(0, 0, 0, 0.24);
+  backdrop-filter: blur(53px);
+  border: 1px solid var(--glass1-stroke-carey);
+  box-sizing: border-box;
+  width: 482px;
+  height: 700px;
+  overflow: hidden;
+}
+.ob-logo-2 {
+  position: absolute;
+  top: -19px;
+  left: 61px;
+  border-radius: var(--br-10xs);
+  width: 146px;
+  height: 161px;
+  object-fit: cover;
+  mix-blend-mode: color;
+}
+.about-me2,
+.alumni1 {
+  position: absolute;
+  display: inline-block;
+  background-color: #727504;
+}
+.alumni1 {
+  top: 108px;
+  left: 70px;
+  font-size: var(--font-size-13xl);
+  background: linear-gradient(#faff00, #faff00), #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  background-clip: text;
+  width: 128px;
+  height: 38px;
+}
+.about-me2 {
+  top: 25px;
+  left: 1254px;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  width: 86px;
+  height: 18px;
+  -webkit-text-stroke: 1px #000;
+  cursor: pointer;
+  
+}
+.login {
+  position: relative;
+  width: 100%;
+  height: 1192px;
+  overflow: hidden;
+  background-image: url(/public/login@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-noto-sans);
+}

@@ -1,0 +1,152 @@
+.card-child {
+  position: absolute;
+  top: -77px;
+  left: -84px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #cdbd2e, #0d0a30);
+  width: 302px;
+  height: 302px;
+}
+.card-item {
+  position: absolute;
+  top: 267px;
+  left: 130px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-silver);
+  border: 5px solid var(--color-darkolivegreen-200);
+  box-sizing: border-box;
+  width: 265px;
+  height: 245px;
+}
+.card-inner {
+  position: absolute;
+  top: 949px;
+  left: 0;
+  border-radius: var(--br-mini);
+  background-color: var(--color-darkolivegreen-100);
+  width: 1440px;
+  height: 36px;
+  mix-blend-mode: normal;
+}
+.card-child1 {
+  position: absolute;
+  top: 563px;
+  left: 67px;
+  width: 391px;
+  height: 66px;
+}
+.line-icon,
+.ob-logo-14 {
+  position: absolute;
+  top: 225px;
+  left: 522px;
+  width: 1.9px;
+  height: 574.5px;
+  object-fit: contain;
+}
+.ob-logo-14 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-10xs);
+  width: 146px;
+  height: 161px;
+  object-fit: cover;
+  mix-blend-mode: color-dodge;
+}
+.alumni7 {
+  position: absolute;
+  top: 129px;
+  left: 9px;
+  display: inline-block;
+  font-family: var(--font-noto-sans);
+  background: linear-gradient(
+      180deg,
+      #faff00,
+      #f6fb0b 14.58%,
+      rgba(22, 22, 3, 0.86)
+    ),
+    #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 128px;
+  height: 38px;
+}
+.card-child2 {
+  position: absolute;
+  top: 172.5px;
+  left: 1330.3px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gainsboro);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  width: 674.7px;
+  height: 696px;
+  transform: rotate(90.45deg);
+  transform-origin: 0 0;
+  mix-blend-mode: linear-burn;
+}
+.image-4-icon {
+  position: absolute;
+  top: 671px;
+  left: 212px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.spcialisation1 {
+  position: absolute;
+  top: 381px;
+  left: 667px;
+  display: inline-block;
+  width: 627px;
+  height: 67px;
+}
+.adresse-e-mail1,
+.anne-de-diplme,
+.anne-dinscription1,
+.nom1,
+.prenom,
+.ville1 {
+  position: absolute;
+  top: 473px;
+  left: 667px;
+  display: inline-block;
+  width: 627px;
+  height: 67px;
+}
+.adresse-e-mail1,
+.anne-de-diplme,
+.nom1,
+.prenom,
+.ville1 {
+  top: 565px;
+}
+.adresse-e-mail1,
+.nom1,
+.prenom,
+.ville1 {
+  top: 206px;
+}
+.adresse-e-mail1,
+.prenom,
+.ville1 {
+  top: 654px;
+}
+.adresse-e-mail1,
+.prenom {
+  top: 740px;
+}
+.prenom {
+  top: 292px;
+}
+.card {
+  position: relative;
+  background-color: var(--color-yellow-100);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

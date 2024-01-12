@@ -1,0 +1,190 @@
+.about-me-child {
+  position: absolute;
+  top: calc(50% - 825px);
+  left: calc(50% - 900px);
+  background-color: rgba(246, 251, 11, 0.51);
+  width: 1800px;
+  height: 1650px;
+}
+.about-me-inner,
+.about-me-item {
+  position: absolute;
+  top: 118px;
+  width: 839px;
+}
+.about-me-item {
+  right: 625px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 8px 7px rgba(0, 0, 0, 0.25);
+  height: 1229px;
+}
+.about-me-inner {
+  left: 336px;
+  background: linear-gradient(180deg, #45431b, #b4ad0d);
+  height: 417px;
+}
+.rectangle-icon {
+  position: absolute;
+  top: 1144px;
+  left: 565px;
+  border-radius: var(--br-189xl-5);
+  width: 384px;
+  height: 87px;
+}
+.ellipse-icon {
+  position: absolute;
+  top: 300.5px;
+  left: 408.1px;
+  width: 372px;
+  height: 366px;
+  object-fit: cover;
+}
+.benmoumen {
+  margin: 0;
+}
+.benmoumen-oumaima,
+.passionne-par-linformatique {
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+}
+.benmoumen-oumaima {
+  top: 629px;
+  left: 781px;
+  font-size: 52px;
+  font-weight: 500;
+  color: var(--color-darkolivegreen-200);
+  width: 362px;
+  height: 141px;
+}
+.passionne-par-linformatique {
+  top: 880px;
+  left: 357px;
+  font-size: 35px;
+  font-weight: 600;
+  color: #343232;
+  white-space: pre-wrap;
+  width: 794px;
+}
+.about-me-child1 {
+  position: absolute;
+  top: 787px;
+  left: 336px;
+  width: 842px;
+  height: 85px;
+}
+.about-me1,
+.contact-me {
+  position: absolute;
+  font-size: var(--font-size-21xl);
+  display: inline-block;
+}
+.about-me1 {
+  top: 806px;
+  left: 428px;
+  font-weight: 600;
+  color: var(--color-white);
+  text-align: center;
+  width: 659px;
+  height: 47px;
+}
+.contact-me {
+  top: 1157px;
+  left: 645px;
+  font-weight: 800;
+  color: hsl(59, 92%, 48%);
+  width: 372px;
+  height: 60px;
+}
+.image-3-icon {
+  position: absolute;
+  top: 1249px;
+  left: 390px;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+.benmoumenoumaimagmailcom {
+  position: absolute;
+  top: 1260px;
+  left: 494px;
+  font-size: var(--font-size-17xl);
+  font-weight: 800;
+  color: var(--color-darkolivegreen-100);
+  display: inline-block;
+  width: 629px;
+  height: 48px;
+}
+.about-me-child2 {
+  position: absolute;
+  top: 31px;
+  left: 1306px;
+  border-radius: var(--br-189xl-5);
+  width: 228px;
+  height: 65px;
+  background-color: #b4ad0d;
+}
+.about-me-child3,
+.log-in {
+  position: absolute;
+  cursor: pointer;
+  background-color: #b4ad0d;
+}
+.log-in {
+  top: 41px;
+  left: 1370px;
+  font-weight: 800;
+  display: inline-block;
+  width: 132px;
+  height: 45px;
+  background-color: #b4ad0d;
+}
+.about-me-child3 {
+  top: 31px;
+  left: 1552px;
+  border-radius: var(--br-189xl-5);
+  width: 228px;
+  height: 65px;
+}
+.alumni,
+.sign-up {
+  position: absolute;
+  display: inline-block;
+}
+.sign-up {
+  top: 41px;
+  left: 1600px;
+  font-weight: 800;
+  width: 132px;
+  height: 45px;
+}
+.alumni {
+  top: 25px;
+  left: 24px;
+  font-family: var(--font-noto-sans);
+  background: linear-gradient(
+      180deg,
+      #faff00,
+      #f6fb0b 14.58%,
+      rgba(22, 22, 3, 0.86)
+    ),
+    #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 128px;
+  height: 38px;
+}
+.about-me {
+  position: relative;
+  width: 100%;
+  height: 1650px;
+  overflow: hidden;
+  background-image: url(/public/about-me@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

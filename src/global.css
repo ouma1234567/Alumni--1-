@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,800;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Radley:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-noto-sans: "Noto Sans";
+  --font-inter: Inter;
+  --font-radley: Radley;
+  --font-montserrat: Montserrat;
+  --font-heebo: Heebo;
+  --font-lato: Lato;
+
+  /* font sizes */
+  --font-size-13xl: 32px;
+  --font-size-17xl: 36px;
+  --font-size-21xl: 40px;
+  --font-size-mini: 15px;
+  --font-size-xl: 20px;
+  --font-size-5xl: 24px;
+  --font-size-77xl: 96px;
+  --font-size-base: 16px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-darkolivegreen-100: #686016;
+  --color-darkolivegreen-200: rgba(100, 86, 12, 0.87);
+  --glass1-stroke-carey: rgba(255, 255, 255, 0.6);
+  --color-white: #fff;
+  --color-yellow-100: #f6fb0b;
+  --color-mediumpurple-100: #7579d6;
+  --color-red-100: #ff1414;
+  --color-red-200: #e91818;
+  --color-gainsboro: #d9d9d9;
+  --color-silver: #c4c4c4;
+  --color-goldenrod: rgba(238, 182, 38, 0.92);
+
+  /* Gaps */
+  --gap-6xl: 25px;
+  --gap-xs: 12px;
+
+  /* Paddings */
+  --padding-sm: 14px;
+  --padding-3xs: 10px;
+  --padding-base: 16px;
+
+  /* Border radiuses */
+  --br-189xl-5: 208.5px;
+  --br-10xs: 3px;
+  --br-xl: 20px;
+  --br-xs: 12px;
+  --br-base: 16px;
+  --br-mini: 15px;
+  --br-3xs: 10px;
+}
